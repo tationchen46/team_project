@@ -1,0 +1,35 @@
+ 
+Letter of Recommendation 
+ 
+For: Coco abc 
+Date: 2023-04-26 
+To: Graduate Admissions Committee 
+I am writing this letter to recommend my former student Coco abc who is applying 
+for the Master of science (MS) in your school.  
+I met Coco in spring2019 when he enrolled in my "CS160: Software Engineering" 
+course.  
+Coco earned A from this tough course, and this shows how 
+knowledgeable and hard worker she is.  
+{If the student took more courses with this professor, the coma-separated list of them plus the grades 
+earned are listed in the following paragraph.} 
+[She also earned "A" from my "CS256: Cryptography"[, "A" from my 
+"CS256: Cryptography"[, ...]]] <course/courses>.  
+Coco submitted well-written assignments,participated in all of my class activities,.  
+She was always very passionate,very enthusiastic,. 
+{Keep the following paragraph here just in case the student developed a term project. If not, it can be 
+deleted by the user during editing.} 
+Furthermore, I noticed from the term project result, she developed leadership, time 
+management, and problem-solving skills. She worked effectively with the team members and 
+delegated tasks appropriately. They were able to deliver a successful project in a timely fashion. 
+I believe that Coco has the capacity to excel at higher education program and this 
+is my pleasure to highly recommend him.  
+Please do not hesitate to contact me with further questions. 
+ 
+Very Respectfully, 
+Ahmad Yazdankhah 
+ 
+Lecturer 
+SJSU,CS Department 
+ahmad.yazdankhah@sjsu.edu  
+1234567890 
+ 
