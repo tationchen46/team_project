@@ -13,6 +13,7 @@ public class Main extends Application {
 		try {
 			
 			
+			
 			AnchorPane root = (AnchorPane)FXMLLoader.load(getClass().getResource("sign-up.fxml"));
 			Scene scene = new Scene(root,600,600);
 			scene.getStylesheets().add(getClass().getResource("application.css").toExternalForm());
