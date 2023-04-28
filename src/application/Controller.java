@@ -178,6 +178,8 @@ public class Controller  {
 		stage.setScene(scene);
 		stage.show();
 	}
+	
+	
 	public void switchtoOldLetter(ActionEvent event) throws IOException {
 		AnchorPane root = (AnchorPane) FXMLLoader.load(getClass().getResource("searchdraft.fxml"));
 		stage = (Stage) ((Node) event.getSource()).getScene().getWindow();

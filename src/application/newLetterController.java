@@ -28,6 +28,8 @@ import javafx.scene.layout.AnchorPane;
 import javafx.stage.Stage;
 
 import java.time.LocalDate;
+import javafx.scene.control.Button;
+import javafx.scene.control.DatePicker;
 
 public class newLetterController implements Initializable {
 	/*
@@ -79,6 +81,46 @@ public class newLetterController implements Initializable {
 
 	@FXML
 	TextField grade;
+	
+//	//updated information
+//	@FXML 
+//	TextField updatedFirst;
+//	
+//	@FXML 
+//	Button updatedSubmit;
+//	
+//	@FXML 
+//	TextField updatedLast;
+//	
+//	@FXML 
+//	TextField updatedSchool;
+//	
+//	@FXML 
+//	TextField updatedGrade;
+//	
+//	@FXML 
+//	ChoiceBox<String> updatedGender;
+//	
+//	@FXML 
+//	DatePicker updatedDate;
+//	
+//	@FXML 
+//	ChoiceBox<String> updatedProgram;
+//	
+//	@FXML 
+//	ChoiceBox<String> updatedSemester;
+//	
+//	@FXML 
+//	TextField updatedYear;
+//	
+//	@FXML 
+//	MenuButton updatedCourses;
+//	
+//	@FXML 
+//	MenuButton updatedPersonal;
+//	
+//	@FXML 
+//	MenuButton updatedAcademic;
 	
 	/* Implemented initialize function to initialize ChoiceBox and MenuButton */
 	@Override
@@ -202,5 +244,78 @@ public class newLetterController implements Initializable {
 				semester_name + year_get, courseCombine, grade_get, personalCombine, academicCombine);
 
 	}
-
 }
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+//	public void getEditedInformation(ActionEvent event) throws IOException {
+//
+//		List<String> selectedCourses = new ArrayList<>();
+//		List<String> selectedpersonal = new ArrayList<>();
+//		List<String> selectedacademic = new ArrayList<>();
+//		String gender_name = gender.getValue();
+//		String program_name = program.getValue();
+//		String semester_name = semester.getValue();
+//		String first_name = first.getText();
+//		String last_name = last.getText();
+//		String school_name = school.getText();
+//		String year_get = year.getText();
+//		String grade_get = grade.getText();
+//
+//		for (MenuItem menuItem : observableCourseList) {
+//			if (menuItem instanceof CheckMenuItem) {
+//				CheckMenuItem checkMenuItem = (CheckMenuItem) menuItem;
+//				if (checkMenuItem.isSelected()) {
+//					selectedCourses.add(checkMenuItem.getText());
+//				}
+//			}
+//		}
+//		System.out.println();
+//		for (MenuItem menuItem : observablePersonalList) {
+//			if (menuItem instanceof CheckMenuItem) {
+//				CheckMenuItem checkMenuItem = (CheckMenuItem) menuItem;
+//				if (checkMenuItem.isSelected()) {
+//					selectedpersonal.add(checkMenuItem.getText());
+//				}
+//			}
+//		}
+//		System.out.println();
+//		for (MenuItem menuItem : observableAcademicList) {
+//			if (menuItem instanceof CheckMenuItem) {
+//				CheckMenuItem checkMenuItem = (CheckMenuItem) menuItem;
+//				if (checkMenuItem.isSelected()) {
+//					selectedacademic.add(checkMenuItem.getText());
+//				}
+//			}
+//		}
+//		System.out.println();
+//		String courseCombine = "";
+//		String personalCombine = "";
+//		String academicCombine = "";
+//		for (String i : selectedCourses) {
+//			courseCombine = courseCombine + i + ",";
+//		}
+//		for (String j : selectedpersonal) {
+//			personalCombine = personalCombine + j + ",";
+//		}
+//		for (String k : selectedacademic) {
+//			academicCombine = academicCombine + k + ",";
+//		}
+//		// Create a new LocalDate object with the current date
+//		LocalDate currentDate = LocalDate.now();
+//		SQLite app = new SQLite();
+//		app.insertInformation(first_name, last_name, gender_name, school_name, currentDate.toString(), program_name,
+//				semester_name + year_get, courseCombine, grade_get, personalCombine, academicCombine);
+//
+//	}
+//
+//}

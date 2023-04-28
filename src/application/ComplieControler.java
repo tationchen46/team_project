@@ -1,6 +1,8 @@
 package application;
 
 import java.io.IOException;
+import javafx.beans.property.SimpleStringProperty;
+import javafx.beans.property.StringProperty;
 
 
 import java.net.URL;
@@ -10,6 +12,7 @@ import java.util.List;
 import java.util.ResourceBundle;
 import java.util.stream.Collectors;
 
+import javafx.application.Application;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
@@ -35,7 +38,7 @@ import java.io.File;
 
 import java.io.FileWriter;
 import java.io.IOException;
-public class ComplieControler {
+public class ComplieControler{
 	private Stage stage;
 	private Scene scene;
 	private AnchorPane root;
@@ -118,9 +121,16 @@ public class ComplieControler {
 	public void getletter(String letter1) {
 		letter = letter1;
 	}
+	
 	public String setletter() {
 		return letter;
 	}
+	
+	@FXML
+	private void handleDeleteButtonAction(ActionEvent event) {
+	    lettershow.setText(""); // set text area content to an empty string
+	}
+	
 	
 	public void printletter1(ActionEvent event) {
         String content = setletter();
@@ -193,9 +203,21 @@ public class ComplieControler {
 		document.close();
 		String letter1 = lettershow.getText();
 		getletter(letter1);
+		
+		
 	}
 //	public static void main(String[] args) throws IOException {
 //		
 //	}
 
+	
+	
+	
+	public void switchtocreatenewLetter(ActionEvent event) throws IOException {
+		AnchorPane root = (AnchorPane) FXMLLoader.load(getClass().getResource("createnewLetter.fxml"));
+		stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
+		scene = new Scene(root);
+		stage.setScene(scene);
+		stage.show();
+	}
 }
