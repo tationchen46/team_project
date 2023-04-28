@@ -135,7 +135,7 @@ public class newLetterController implements Initializable {
 	}
 
 	public void goToComplie(ActionEvent event) throws IOException {
-		getInformation(event);
+		//getInformation(event);
 		AnchorPane root = (AnchorPane) FXMLLoader.load(getClass().getResource("Compile.fxml"));
 		stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
 		scene = new Scene(root);
