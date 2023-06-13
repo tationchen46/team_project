@@ -6,6 +6,7 @@
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="695.0" prefWidth="811.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.ComplieControler">
    <children>
@@ -21,5 +22,7 @@
       <Button layoutX="624.0" layoutY="613.0" mnemonicParsing="false" onAction="#printletter1" text="Save" />
       <Button layoutX="223.0" layoutY="613.0" mnemonicParsing="false" onAction="#switchtocreatenewLetter" text="edit" />
       <Button layoutX="396.0" layoutY="613.0" mnemonicParsing="false" onAction="#handleDeleteButtonAction" text="delete draft" />
+      <Text fill="#e84040" layoutX="374.0" layoutY="664.0" strokeType="OUTSIDE" strokeWidth="0.0" text="(After deleting, click &quot;Save&quot;)" />
+      <Label fx:id="check" layoutX="448.0" layoutY="50.0" prefHeight="35.0" prefWidth="319.0" text="please enter the last name in the database" />
    </children>
 </AnchorPane>

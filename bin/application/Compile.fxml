@@ -10,8 +10,9 @@
       <Button layoutX="103.0" layoutY="449.0" mnemonicParsing="false" onAction="#backTonewletterpage" prefHeight="31.0" prefWidth="79.0" text="Back" />
       <TextArea fx:id="draftshow" layoutX="95.0" layoutY="148.0" prefHeight="269.0" prefWidth="602.0" />
       <Label layoutX="95.0" layoutY="72.0" prefHeight="25.0" prefWidth="322.0" text="The Draft show below" />
-      <Button fx:id="Complie" layoutX="317.0" layoutY="449.0" mnemonicParsing="false" onAction="#printletter" text="Complie" />
+      <Button fx:id="Complie" layoutX="270.0" layoutY="449.0" mnemonicParsing="false" onAction="#printletter" text="Complie" />
       <Label layoutX="95.0" layoutY="113.0" prefHeight="21.0" prefWidth="443.0" text="Please press the complie button to show the letter" />
-      <Button layoutX="546.0" layoutY="449.0" mnemonicParsing="false" onAction="#printletter1" prefHeight="31.0" prefWidth="64.0" text="Save" />
+      <Button layoutX="640.0" layoutY="449.0" mnemonicParsing="false" onAction="#printletter1" prefHeight="31.0" prefWidth="64.0" text="Save" />
+      <Button layoutX="431.0" layoutY="449.0" mnemonicParsing="false" onAction="#gotoeditold" prefHeight="31.0" prefWidth="150.0" text="Edit old letter" />
    </children>
 </AnchorPane>
